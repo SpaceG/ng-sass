@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* The Bootstrap Core */
+@import "~bootstrap/scss/bootstrap.scss";
+
+/* Here we have our Custome Variables */ 
+@import "variables"; 
+
+
+/****************************************
+ Set The Global Stylesheet Overwriting 
+            for Bootstrap 4
+ ****************************************/ 
+
+
+body, html {
+    background: $black; 
+    color:  $gray; 
+}
+
+a {
+    color:  $gray; 
+}
